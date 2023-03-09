@@ -4,10 +4,27 @@ body {
   display: block;
 }
 
+img {
+  padding: 1%;
+  background-color: rgb(125, 118, 118);
+  border-radius: 20px;
+}
+
 .buttons {
   display: block;
 }
 
 a {
   padding: 1%;
+}
+
+@media (max-width: 600px) {
+  .contact-images {
+    display: none;
+  }
+
+  a {
+    display: block;
+    text-align: right;
+  }
 }
