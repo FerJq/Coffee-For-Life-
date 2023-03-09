@@ -4,12 +4,6 @@ body {
   display: block;
 }
 
-img {
-  padding: 1%;
-  background-color: rgb(125, 118, 118);
-  border-radius: 20px;
-}
-
 .buttons {
   display: block;
 }
@@ -18,13 +12,11 @@ a {
   padding: 1%;
 }
 
-@media (max-width: 600px) {
-  .contact-images {
-    display: none;
+@media (max-width: 500px) {
+  .primary-container {
+    text-align: center;
   }
-
-  a {
-    display: block;
-    text-align: right;
+  .primary-container .awidth {
+    width: 100%;
   }
 }
