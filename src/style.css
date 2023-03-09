@@ -1,3 +1,13 @@
 body {
-  color: rgb(255, 233, 255);
+  background-color: rgb(255, 233, 255);
+  text-align: center;
+  display: block;
+}
+
+.buttons {
+  display: block;
+}
+
+a {
+  padding: 1%;
 }
