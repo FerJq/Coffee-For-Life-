@@ -6,10 +6,17 @@ body {
     rgb(47, 48, 67) 68.2%,
     rgb(27, 23, 36) 99.1%
   );
-  text-align: center;
-  display: block;
 }
 
-h1 {
+.heading {
+  font-size: 60px;
+  color: white;
+  background-color: #2b3035;
   text-align: center;
+  padding: 0.5%;
+}
+
+p {
+  text-align: center;
+  color: white;
 }
