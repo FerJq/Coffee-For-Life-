@@ -1,22 +1,15 @@
 body {
-  background-color: rgb(255, 233, 255);
+  background: linear-gradient(
+    110.6deg,
+    rgb(156, 116, 129) -18.3%,
+    rgb(67, 54, 74) 16.4%,
+    rgb(47, 48, 67) 68.2%,
+    rgb(27, 23, 36) 99.1%
+  );
   text-align: center;
   display: block;
 }
 
-.buttons {
-  display: block;
-}
-
-a {
-  padding: 1%;
-}
-
-@media (max-width: 500px) {
-  .primary-container {
-    text-align: center;
-  }
-  .primary-container .awidth {
-    width: 100%;
-  }
+h1 {
+  text-align: center;
 }
