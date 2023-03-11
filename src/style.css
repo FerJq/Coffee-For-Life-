@@ -1,129 +1,119 @@
 body {
-  background: linear-gradient(
-    110.6deg,
-    rgb(156, 116, 129) -18.3%,
-    rgb(67, 54, 74) 16.4%,
-    rgb(47, 48, 67) 68.2%,
-    rgb(27, 23, 36) 99.1%
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
   );
-  color: white;
-}
-
-h2 {
-  color: white;
-  text-align: center;
 }
 
 h3 {
-  color: white;
-  text-align: left;
-  background-color: #2b3035;
+  text-align: center;
+  background-color: rgb(255, 243, 236);
   padding: 2%;
   border-radius: 20px;
+  box-shadow: 1px 1px 2px rgb(185, 185, 185);
 }
 
-h6 {
-  background-color: #2b3035;
-  padding: 1%;
-  border-radius: 10px;
+span {
+  font-size: 40px;
 }
 
 p {
-  font-size: 20px;
   text-align: center;
-  color: white;
-  border-radius: 10px;
+  font-size: 15px;
+}
+
+button {
+  width: 150px;
+  border-radius: 60px;
+  border: 2px solid rgb(245, 210, 206);
+  background-color: rgb(255, 228, 223);
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: translateY(-10px);
+  background-color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.videosbottom {
+  border-radius: 30px;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-container i {
+  font-size: 32px;
+  padding: 1%;
+}
+.container {
+  background-color: aliceblue;
+  padding: 1%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px rgb(250, 204, 204), -1em 0 0.4em rgb(247, 222, 255);
+}
+
+.benefit-container {
+  font-weight: 600;
+  padding: 1px 60px;
+  font-size: 20px;
+  width: 600px;
+}
+
+.customize-benefits {
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 5px 5px rgb(220, 220, 220);
+  border: 1px solid rgb(255, 227, 193);
+  background-color: rgb(255, 251, 246);
+  border-radius: 60px;
+  text-align: center;
+}
+
+.img-customize {
+  transition: all 200ms ease-in-out;
+  border-radius: 40px;
+  box-shadow: 1px 1px 2px rgb(166, 166, 166);
+}
+
+.img-customize:hover {
+  transition: all 200ms ease-in-out;
+  filter: brightness(100%);
+}
+
+.info-customize {
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgb(220, 220, 220);
+  border: 1px solid rgb(255, 227, 193);
+  background-color: rgb(255, 251, 246);
+  border-radius: 20px;
   padding: 2%;
 }
 
+.buttons-redirect {
+}
+
 .buttons-links {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.buttons-links a {
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-  font-weight: 800;
-}
-
-.buttons-links button {
-  border: 5px solid rgb(159, 148, 148);
-  border-radius: 20px;
-  width: 200px;
-  padding: 1%;
-  transition-property: transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-
-.buttons-links button:hover {
-  transform: translateY(-10px);
-}
-.info-customize button {
-  border: 5px solid rgb(159, 148, 148);
-  border-radius: 20px;
-  width: 200px;
-  padding: 1%;
-  transition-property: transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-}
-
-.info-customize button:hover {
-  transform: translateY(-10px);
-}
-
-.info-customize a {
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
-  font-weight: 800;
-}
-
-.video-body {
-  border-radius: 20px;
-}
-.heading {
-  font-size: 35px;
-  color: white;
-  background-color: #2b3035;
-  text-align: center;
-  padding: 0.5%;
-}
-
-.subheading {
-  font-size: 25px;
-  color: white;
-}
-
-.body-container h3 {
-  color: white;
-}
-
-.body-page {
-  padding: 1% 5%;
-}
-
-.body-container hr {
-  color: white;
-}
-
-.body-container .img-customize {
-  border-radius: 20px;
-}
-
-.body-container .info-customize {
-  background-color: rgb(93, 85, 93);
-  border-radius: 30px;
-}
-.container-content {
   text-align: center;
 }
 
-.container-heading {
-  background-image: ("images/coffee1.png");
+footer {
+  font-size: 10px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(255, 11, 255);
 }
