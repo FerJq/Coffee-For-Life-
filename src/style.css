@@ -6,17 +6,124 @@ body {
     rgb(47, 48, 67) 68.2%,
     rgb(27, 23, 36) 99.1%
   );
+  color: white;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: left;
+  background-color: #2b3035;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+h6 {
+  background-color: #2b3035;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.buttons-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons-links a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.buttons-links button {
+  border: 5px solid rgb(159, 148, 148);
+  border-radius: 20px;
+  width: 200px;
+  padding: 1%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.buttons-links button:hover {
+  transform: translateY(-10px);
+}
+.info-customize button {
+  border: 5px solid rgb(159, 148, 148);
+  border-radius: 20px;
+  width: 200px;
+  padding: 1%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.info-customize button:hover {
+  transform: translateY(-10px);
+}
+
+.info-customize a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.video-body {
+  border-radius: 20px;
+}
 .heading {
-  font-size: 60px;
+  font-size: 35px;
   color: white;
   background-color: #2b3035;
   text-align: center;
   padding: 0.5%;
 }
 
-p {
-  text-align: center;
+.subheading {
+  font-size: 25px;
   color: white;
+}
+
+.body-container h3 {
+  color: white;
+}
+
+.body-page {
+  padding: 1% 5%;
+}
+
+.body-container hr {
+  color: white;
+}
+
+.body-container .img-customize {
+  border-radius: 20px;
+}
+
+.body-container .info-customize {
+  background-color: rgb(93, 85, 93);
+  border-radius: 30px;
+}
+.container-content {
+  text-align: center;
+}
+
+.container-heading {
+  background-image: ("images/coffee1.png");
 }
