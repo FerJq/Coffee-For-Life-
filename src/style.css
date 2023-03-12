@@ -6,6 +6,12 @@ body {
   );
 }
 
+body h1 {
+  background-color: #2b3035;
+  color: white;
+  padding: 1%;
+}
+
 h3 {
   text-align: center;
   background-color: rgb(255, 243, 236);
