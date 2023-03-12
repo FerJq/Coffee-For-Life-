@@ -166,6 +166,14 @@ footer a:hover {
 
 /*Contact*/
 
+form {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 400px;
+  box-shadow: 1px 1px 5px rgb(206, 206, 206);
+}
+
 .contact-area {
   border-radius: 1px;
   padding: 5%;
