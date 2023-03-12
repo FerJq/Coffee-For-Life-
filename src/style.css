@@ -117,3 +117,31 @@ footer a {
 footer a:hover {
   color: rgb(255, 11, 255);
 }
+
+/*About*/
+
+.container-about {
+  text-align: center;
+}
+
+.container-about h4 {
+  background-color: pink;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.container-about p {
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 1%;
+  text-align: center;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.about-images {
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
+}
