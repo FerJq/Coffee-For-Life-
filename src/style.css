@@ -98,9 +98,6 @@ button a {
   padding: 2%;
 }
 
-.buttons-redirect {
-}
-
 .buttons-links {
   text-align: center;
 }
@@ -118,6 +115,11 @@ footer a:hover {
   color: rgb(255, 11, 255);
 }
 
+@media (max-width: 600px) {
+  .img-homepage {
+    display: none;
+  }
+}
 /*About*/
 
 .container-about {
@@ -137,8 +139,6 @@ footer a:hover {
   border-radius: 10px;
   padding: 1%;
   text-align: center;
-  margin: 0 auto;
-  width: 700px;
 }
 
 .about-images {
@@ -170,4 +170,8 @@ footer a:hover {
   border-radius: 30px;
 }
 
-@media (max-width: )
+@media (max-width: 600px) {
+  .container-contact {
+    display: none;
+  }
+} ;
