@@ -145,3 +145,29 @@ footer a:hover {
   border-radius: 20px;
   box-shadow: 1px 1px 10px black;
 }
+
+/*Contact*/
+
+.contact-area {
+  border-radius: 1px;
+  padding: 5%;
+}
+
+.text-contact {
+  text-align: center;
+  background-color: beige;
+  padding: 1%;
+  box-shadow: 1px 1px 5px rgb(176, 176, 176);
+  border-radius: 50px;
+}
+
+.text-contact h3 {
+  background-color: rgb(255, 241, 252);
+  box-shadow: 1px 1px 5px rgb(176, 176, 176);
+}
+
+.video-contact {
+  border-radius: 30px;
+}
+
+@media (max-width: )
